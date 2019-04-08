@@ -72,8 +72,9 @@ function load(){
          $("#checkOut").css("display", "inline");
          
      }
-     document.getElementById('itsTboDy1').innerHTML = listLoad;
-}
+      $("#itsTboDy1").html(listLoad);
+      
+    }
 
  //Tar bort allt från LocalStorage(varukorgen)
  $("#cleanCart").click(function(){
