@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="jumbotron text-center">
+                <h1>Black Desert Character Shop</h1>
+                <p>©Denis Jakusjev</p>
+                <h2 id=TotalPrice></h2> 
+        </div>
+        <div class="container">
+                <div class="row">
+                    <div id="shopCart" class="col-md-6">
+                        <table id="myTable" class="cartTable table table-dark">
+                          <thead>
+                            <tr id="thTr">
+                              <th>Picture</th>
+                              <th>Name</th>
+                              <th>Price</th>
+                              <th>Amount</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody id="itsTboDy1">
+                          </tbody>
+                        </table>
+                      </div>
+                      <div id="PersonThings" class="col-md-6">
+                          <div id="lastText">
+                           
+                                    <div>
+                                        <label for="user"><b>Username</b></label><br>
+                                        <input id="name" type="text" required><br>
+                                        <span class="message">The username must be at leaset 3 characters.</span>
+                        
+                                    </div>
+                                    <div>
+                                        <label for="password"><b>Email</b></label><br>
+                                        <input id="email" type="text" required><br>
+                                        <span class="message">The email must be at leaset 3 characters.</span>
+                                            
+                                        </div>
+                                        <div>
+                                                <label for="Tel"><b>Telefon</b></label><br>
+                                                <input id="tf" type="text" required><br>
+                                                <span class="message">The Tel.number must be at leaset 3 characters.</span>
+                                                    
+                                                </div>
+                                    
+                                        <button id="buttonMe" class="btn btn-secondary">Buy</button>
+                                
+                                </div>
+                </div>
+                </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <script src=js2.js></script>
+</body>
+</html>
